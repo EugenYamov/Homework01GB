@@ -7,15 +7,12 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число С");
 int numberC = Convert.ToInt32(Console.ReadLine());
 
-if (numberA > numberB && numberA > numberC)
+if (numberA >= numberB && numberA >= numberC)
     Console.WriteLine($"Число {numberA} больше");
 
-else if (numberB > numberA && numberB > numberC)
+else if (numberB >= numberA && numberB >= numberC)
     Console.WriteLine($"Число {numberB} больше");
 
-else if (numberC > numberB && numberC > numberA)
+else if (numberC >= numberB && numberC >= numberA)
     Console.WriteLine($"Число {numberC} больше");
-
-else
-    Console.WriteLine("Чиcла равны");
 
